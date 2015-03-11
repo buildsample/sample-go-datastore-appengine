@@ -1,5 +1,6 @@
 language: go
 
+
 go:
   - 1.2
 
@@ -23,6 +24,7 @@ before_install:
 before_script: 
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
+
 
 script:
   - >
